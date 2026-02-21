@@ -80,8 +80,6 @@ dependencies {
     implementation 'com.github.cortinico:slidetoact:v0.9.0'
 
     implementation 'io.realm:realm-android-library:10.8.0'
-    implementation 'com.klinkerapps:android-smsmms:5.2.6'
-
     implementation project(path: ':android-smsmms')
     implementation project(path: ':domain')
     implementation project(path: ':common')
