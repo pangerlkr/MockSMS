@@ -16,8 +16,7 @@
         android:layout_marginBottom="50dp"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/anim"
-        app:lottie_scale="1" />
+        app:lottie_rawRes="@raw/anim" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
