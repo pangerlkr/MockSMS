@@ -9,6 +9,17 @@ Please review our [Terms of Use](https://github.com/ExploiTR/MockSMS/blob/master
 # MockSMS
 Android application to create/craft fake sms.
 
+
+## Development setup
+This Android project uses an older Android Gradle Plugin and should be built with **Java 21**.
+If you use [mise](https://mise.jdx.dev/), run from repo root:
+
+```bash
+mise install
+```
+
+Then run Gradle commands with mise active (for example `mise exec -- ./gradlew test` from `android/`).
+
 # How it works?
 : MockSMS works locally, it just acts like an SMS application and creates SMS with the data provided by you. Using it for dirty purposes isn't the responsibility of the developer.
 
